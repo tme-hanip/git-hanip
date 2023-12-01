@@ -1,0 +1,35 @@
+2023-12-01 15:48:55.920 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /app
+2023-12-01 15:48:56.041 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2023-12-01 15:48:56.105 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/jenkinstest/web-app.properties
+2023-12-01 15:48:56.110 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:C:\Users\ichsa\StudioProjects\jenkinstest\deploy\tomcat/../app_home/local.app.properties
+2023-12-01 15:48:56.120 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app
+2023-12-01 15:48:56.240 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2023-12-01 15:49:00.925 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/app-core/remoting]
+2023-12-01 15:49:01.085 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService, cuba_ScreenProfilerService]
+2023-12-01 15:49:01.965 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2023-12-01 15:49:03.818 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [app.cuba:type=ConfigStorage, app.cuba:type=CachingFacade, app.cuba:type=FileUploading, app.cuba:type=JmxNodeIdentifier, app.cuba:type=JmxLogControl, app.cuba:type=ClassLoaderManager, app.cuba:type=StatisticsCounter]
+2023-12-01 15:49:04.055 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 60 ms
+2023-12-01 15:49:04.067 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2023-12-01 15:49:04.495 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 428 ms
+2023-12-01 15:49:04.525 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2023-12-01 15:49:04.550 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2023-12-01 15:49:04.967 DEBUG [main] _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.h.c.w.c.LogDownloadController:
+	{GET [/log/{file:[a-zA-Z0-9\.\-_]+}]}: getLogFile(HttpServletResponse,String,Boolean,String)
+2023-12-01 15:49:04.967 DEBUG [main] _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.h.c.w.c.HealthCheckController:
+	{GET [/health]}: healthCheck(HttpServletRequest,HttpServletResponse)
+2023-12-01 15:49:04.974 DEBUG [main] _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.h.c.w.c.FileDownloadController:
+	{GET [/download]}: download(HttpServletRequest,HttpServletResponse)
+2023-12-01 15:49:05.435 DEBUG [main] _org.springframework.web.servlet.HandlerMapping.Mappings - 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping' {}
+2023-12-01 15:49:05.486 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 936 ms
+2023-12-01 15:49:05.710 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /app-core
+2023-12-01 15:49:05.726 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba]
+2023-12-01 15:49:05.745 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/jenkinstest/app.properties
+2023-12-01 15:49:05.750 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from file:C:\Users\ichsa\StudioProjects\jenkinstest\deploy\tomcat/../app_home/local.app.properties
+2023-12-01 15:49:05.750 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: app-core
+2023-12-01 15:49:05.765 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to hsql
+2023-12-01 15:49:05.789 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2023-12-01 15:49:06.015 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2023-12-01 15:49:06.145 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file C:\Users\ichsa\StudioProjects\jenkinstest\deploy\app_home\app-core\work\persistence.xml
